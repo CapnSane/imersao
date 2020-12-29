@@ -19,3 +19,7 @@ All commits will be practices done in and outside the lectures, in addition to c
 #### The first commit
 
 The first commit is an open repository only with this _README_ file.
+
+### Copyright
+
+This repository is only for front-end and back-end practices, and it is for non-commercial purposes.
