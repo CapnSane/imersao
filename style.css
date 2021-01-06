@@ -105,7 +105,7 @@ li {
 }
 
 .bar:hover {
-  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  box-shadow: 1px 1px 10px 1px #dcdcdc;
 }
 
 .bar:focus-within {
