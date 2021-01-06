@@ -13,22 +13,22 @@ li {
 }
 
 .font {
-  font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-family: arial,sans-serif;
+  font-size: 14px;
   letter-spacing: .25px;
 }
 
 .header-idx-left {
   display: inline-block;
   position: absolute;
-  top: 10px;
+  top: 8px;
   left: -10px;
 }
 
 .header-idx-right {
   display: inline-flex;
   position: absolute;
-  top: 10px;
+  top: 8px;
   right: 110px;
 }
 
@@ -68,6 +68,7 @@ li {
 }
 
 .underline-on-hover {
+  color: black;
   text-decoration: none;
 }
 
