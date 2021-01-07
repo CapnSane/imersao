@@ -3,6 +3,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.2] - 2020-01-06
+### Added
+- New css lecture - the chalenge of Google main website
+
+### Changed
+- Style: text fonts, sizes, and alignments.
+- Google search bar added.
+- Animations in pure css.
+
+### Removed
+No removal.
+
+---
+
 ## [0.0.1] - 2020-12-31
 ### Added
 - Changelog created.
