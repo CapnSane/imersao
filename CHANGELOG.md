@@ -13,7 +13,7 @@ All notable changes to this project will be documented in this file.
 - Animations in pure css.
 
 ### Removed
-No removal.
+- The first challenge _index.html_ was replaced by the new one and put in a file with the name _desafio1_, and afterward renamed to _index-d1.html_.
 
 ---
 
