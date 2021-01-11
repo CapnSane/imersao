@@ -32,19 +32,29 @@ li {
   right: 110px;
 }
 
-.footer-idx-left {
-  display: inline-block;
+.gray-bg {
+  background: #f2f2f2;
+  border-top: 1px solid #dadce0;
+  line-height: 40px;
+  bottom: 0;
+  left: 0;
   position: absolute;
-  white-space: nowrap;
-  bottom: 3px;
-  left: -10px;
+  right: 0;
+  display: inline;
+}
+
+.footer-idx-left {
+  position: relative;
+  text-align: left;
+  padding-left: 20px;
+  float: left;
 }
 
 .footer-idx-right {
-  display: inline-flex;
-  position: absolute;
-  bottom: 3px;
-  right: 10px;
+  position: relative;
+  text-align: right;
+  padding-right: 20px;
+  float: right;
 }
 
 .img-account {
@@ -65,6 +75,10 @@ li {
   display: block;
   width: 25px;
   height: 25px;
+}
+
+.center {
+  text-align: center;
 }
 
 .underline-on-hover {
@@ -92,7 +106,7 @@ li {
 .google-logo {
   text-align: center;
   display: block;
-  padding-top: 170px;
+  padding-top: 190px;
   padding-left: 1px;
 }
 
@@ -120,7 +134,6 @@ li {
   font-size: 16px;
   outline: none;
   padding-left: 17px;
-
 }
 
 .voice {
