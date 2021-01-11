@@ -3,7 +3,19 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.0.2] - 2020-01-06
+## [0.0.1] - 2020-01-11
+### Added
+No additions.
+
+### Changed
+- Refactor: footer.
+
+### Removed
+No removal.
+
+---
+
+## [0.0.1] - 2020-01-06
 ### Added
 - New css lecture - the chalenge of Google main website
 
