@@ -3,7 +3,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.0.1] - 2020-01-11
+## [0.2.1] - 2020-01-11
 ### Added
 No additions.
 
@@ -15,7 +15,20 @@ No removal.
 
 ---
 
-## [0.0.1] - 2020-01-06
+## [0.2.1] - 2020-01-21
+### Added
+- New index.html and js.js files created.
+
+### Changed
+- New js lecture - the chalenge of Google main website in JavaScript.
+- Second challenge files moved to _desafio2-google_ folder.
+
+### Removed
+No removal.
+
+---
+
+## [0.1.1] - 2020-01-06
 ### Added
 - New css lecture - the chalenge of Google main website
 
