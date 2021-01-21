@@ -18,6 +18,8 @@ No removal.
 ## [0.2.1] - 2020-01-21
 ### Added
 - New index.html and js.js files created.
+- Search buttons
+- Hovers
 
 ### Changed
 - New js lecture - the chalenge of Google main website in JavaScript.
