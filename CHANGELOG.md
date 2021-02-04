@@ -3,6 +3,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.2] - 2020-02-04
+### Added
+No additions.
+
+### Changed
+- Refactor: code was written using MVC method.
+
+### Removed
+No removal.
+
+---
+
 ## [0.2.1] - 2020-01-11
 ### Added
 No additions.
