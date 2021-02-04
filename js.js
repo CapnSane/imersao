@@ -312,7 +312,6 @@ let App = {
     },
 
 
-
     createElements: function () {
       this.createApp();
       this.createHeader("About", "left");
