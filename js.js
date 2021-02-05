@@ -29,6 +29,7 @@ let App = {
 
       this.header = document.createElement("a");
 
+
       if (align == "left") {
         this.header.innerHTML = word;
         this.header.style.color = "black";
@@ -44,8 +45,12 @@ let App = {
         this.header.style.cursor = "pointer";
         this.header.style.outline = "none";
         this.header.setAttribute("href", "#" + word);
-        // this.header.setAttribute("onmouseover", "hoverunder(this)");
-        // this.header.setAttribute("onmouseout", "noneline(this)");
+        this.header.onmouseover = function () {
+          this.style.textDecoration = "underline";
+        };
+        this.header.onmouseout = function () {
+          this.style.textDecoration = "none";
+        };
         this.app.appendChild(this.header);
       } else if (align == "right") {
         this.header.innerHTML = word;
@@ -64,8 +69,12 @@ let App = {
         this.header.style.cursor = "pointer";
         this.header.style.outline = "none";
         this.header.setAttribute("href", "#" + word);
-        // this.header.setAttribute("onmouseover", "hoverunder(this)");
-        // this.header.setAttribute("onmouseout", "noneline(this)");
+        this.header.onmouseover = function () {
+          this.style.textDecoration = "underline";
+        };
+        this.header.onmouseout = function () {
+          this.style.textDecoration = "none";
+        };
         this.app.appendChild(this.header);
       }
     },
@@ -95,13 +104,21 @@ let App = {
       this.elImg.setAttribute("alt", word);
 
       if (word == "account") {
-        // this.elImg.setAttribute("onmouseover", "brownaccount(this)");
-        // this.elImg.setAttribute("onmouseout", "nonetext(this)");
+        this.elImg.onmouseover = function () {
+          this.setAttribute("title", "Google Account: Emmett Brown\n(dr.brown@gmail.com)");
+        };
+        this.elImg.onmouseout = function () {
+          this.setAttribute("title", "none");
+        };
       }
 
       if (word == "Google apps") {
-        // this.elImg.setAttribute("onmouseover", "appstext(this)");
-        // this.elImg.setAttribute("onmouseout", "nonetext(this)");
+        this.elImg.onmouseover = function () {
+          this.setAttribute("title", "Google apps");
+        };
+        this.elImg.onmouseout = function () {
+          this.setAttribute("title", "none");
+        };
       }
 
       this.elA.setAttribute("href", "#" + word.replace(/\s/g, ""));
@@ -148,8 +165,12 @@ let App = {
 
       this.backbar.setAttribute("type", "text");
       this.backbar.setAttribute("title", "Search");
-      // this.backbar.setAttribute("onmouseover", "hoverbar(this)");
-      // this.backbar.setAttribute("onmouseout", "noneshadow(this)");
+      this.backbar.onmouseover = function () {
+        this.style.boxShadow = "3px 3px 10px #dcdcdc";
+      };
+      this.backbar.onmouseout = function () {
+        this.style.boxShadow = "none";
+      };
       this.app.appendChild(this.backbar);
 
       this.bar = document.createElement("input");
@@ -228,14 +249,20 @@ let App = {
 
       if (word == "Google Search") {
         this.button.innerHTML = word;
-        //TODO
-        // el.setAttribute("onmouseover", "hoverbutton(this)");
-        // el.setAttribute("onmouseout", "noneshadowbutton(this)");
+        this.button.onmouseover = function () {
+          this.style.boxShadow = "0 0 4px #dcdcdc";
+        };
+        this.button.onmouseout = function () {
+          this.style.boxShadow = "none";
+        };
       } else {
         this.button.innerHTML = word;
-        //TODO
-        // el.setAttribute("onmouseover", "hoverbutton(this)");
-        // el.setAttribute("onmouseout", "noneshadowbutton(this)");
+        this.button.onmouseover = function () {
+          this.style.boxShadow = "0 0 4px #dcdcdc";
+        };
+        this.button.onmouseout = function () {
+          this.style.boxShadow = "none";
+        };
       }
 
       this.button.setAttribute("id", "button");
@@ -280,8 +307,12 @@ let App = {
         this.footer.style.paddingTop = "11px";
         this.footer.style.paddingLeft = "10px";
         this.footer.setAttribute("href", "#" + word);
-        // this.footer.setAttribute("onmouseover", "hoverunder(this)");
-        // this.footer.setAttribute("onmouseout", "noneline(this)");
+        this.footer.onmouseover = function () {
+          this.style.textDecoration = "underline";
+        };
+        this.footer.onmouseout = function () {
+          this.style.textDecoration = "none";
+        };
 
         document.getElementById("graybox").appendChild(this.footer);
       } else if (align == "right") {
@@ -304,8 +335,12 @@ let App = {
         this.footer.style.paddingTop = "11px";
         this.footer.style.paddingRight = "10px";
         this.footer.setAttribute("href", "#" + word);
-        // this.footer.setAttribute("onmouseover", "hoverunder(this)");
-        // this.footer.setAttribute("onmouseout", "noneline(this)");
+        this.footer.onmouseover = function () {
+          this.style.textDecoration = "underline";
+        };
+        this.footer.onmouseout = function () {
+          this.style.textDecoration = "none";
+        };
 
         document.getElementById("graybox").appendChild(this.footer);
       }
